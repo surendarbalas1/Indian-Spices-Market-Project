@@ -1,4 +1,17 @@
-﻿body {
+﻿@import url('https://fonts.google.com/specimen/Signika?selection.family=Signika');
+
+$white: #ffffff;
+$black: #000000;
+$main-sizes: 100%;
+$main-backround-color: #990000;
+$main-font: Signika;
+
+@mixin margin-float-group {
+    margin: auto;
+    float: none;
+}
+
+body {
     margin: 0px;
     padding:0px;
 }
