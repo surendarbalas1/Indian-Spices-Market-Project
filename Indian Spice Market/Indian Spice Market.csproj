@@ -115,6 +115,18 @@
   <ItemGroup>
     <Content Include="About.html" />
     <Content Include="Contact.html" />
+    <Content Include="content\about.css">
+      <DependentUpon>about.scss</DependentUpon>
+    </Content>
+    <Content Include="content\about.min.css">
+      <DependentUpon>about.css</DependentUpon>
+    </Content>
+    <Content Include="content\contact.css">
+      <DependentUpon>contact.scss</DependentUpon>
+    </Content>
+    <Content Include="content\contact.min.css">
+      <DependentUpon>contact.css</DependentUpon>
+    </Content>
     <Content Include="content\index.css">
       <DependentUpon>index.scss</DependentUpon>
     </Content>
