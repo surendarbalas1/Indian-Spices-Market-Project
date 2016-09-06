@@ -103,6 +103,8 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="content\about.scss" />
+    <Content Include="content\contact.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,6 +113,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.html" />
+    <Content Include="Contact.html" />
     <Content Include="content\index.css">
       <DependentUpon>index.scss</DependentUpon>
     </Content>
