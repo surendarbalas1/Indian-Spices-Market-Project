@@ -2,5 +2,13 @@
   {
     "outputFile": "content/index.css",
     "inputFile": "content/index.scss"
+  },
+  {
+    "outputFile": "content/contact.css",
+    "inputFile": "content/contact.scss"
+  },
+  {
+    "outputFile": "content/about.css",
+    "inputFile": "content/about.scss"
   }
 ]
