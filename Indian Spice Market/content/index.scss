@@ -16,7 +16,17 @@ body {
     padding:0px;
 }
 #navigation-button-menu {
+    background: $white !important;
     font-family: $main-font;
+    margin-bottom: 0px !important;
+}
+#navigation-button-menu,
+#nav-button-container,
+#button-list {
+    min-height: 75px !important;
+}
+#toggle-button {
+
 }
 #indian-spices-brand {
     img {
@@ -25,4 +35,16 @@ body {
 }
 .buttons {
 
+}
+#search-bar {
+    label, 
+    input {
+        float: left;
+    }
+    label {
+        font-size: 18px;
+     }
+    input {
+        width: 65%;
+    }
 }

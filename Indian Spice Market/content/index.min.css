@@ -1,1 +1,1 @@
-﻿@import url("https://fonts.google.com/specimen/Signika?selection.family=Signika");body{margin:0;padding:0;}#navigation-button-menu{font-family:Signika;}
+﻿@import url("https://fonts.google.com/specimen/Signika?selection.family=Signika");body{margin:0;padding:0;}#navigation-button-menu{background:#fff !important;font-family:Signika;margin-bottom:0 !important;}#navigation-button-menu,#nav-button-container,#button-list{min-height:75px !important;}#search-bar label,#search-bar input{float:left;}#search-bar label{font-size:18px;}#search-bar input{width:65%;}

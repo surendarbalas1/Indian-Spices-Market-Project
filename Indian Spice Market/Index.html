@@ -27,27 +27,27 @@
 <body>
     <header>
         <nav role="navigation" id="navigation-button-menu" class="navbar navbar-default navbar-static-top">
-            <div class="container">
+            <div id="nav-button-container" class="container">
                 <div class="navbar-header">
-                    <button role="button" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <button role="button" type="button" data-target="#navbarCollapse" data-toggle="collapse" id="toggle-button" class="navbar-toggle">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a role="link" id="indian-spices-brand" href="#" class="navbar-brand">Brand</a>
+                    <a role="link" href="#" id="indian-spices-brand" class="navbar-brand">Brand</a>
                 </div>
                 <div id="navbarCollapse" class="collapse navbar-collapse">
-                    <ul role="list" class="nav navbar-nav">
+                    <ul role="list" id="button-list" class="nav navbar-nav">
                         <li role="listitem" class="buttons"><a role="link" href="#">Home</a></li>
                         <li role="listitem" class="buttons"><a role="link" href="About.html">About</a></li>
                         <li role="listitem" class="buttons"><a role="link" href="#">Store<span class="caret"></span></a></li>
                         <li role="listitem" class="buttons"><a role="link" href="Contact.html">Contact</a></li>
                     </ul>
-                    <ul role="list" class="nav navbar-nav">
+                    <ul role="list" class="nav navbar-nav navbar-right">
                         <li role="listitem">
                             <form role="form">
-                                <div class="form-group">
+                                <div id="search-bar" class="form-group">
                                     <label for="searchBar">Search</label><input type="search" class="form-control" />
                                 </div>
                             </form>
