@@ -1,4 +1,7 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Signika");
 #button-menu {
+  background: #FFF !important;
+  font-family: Signika;
+  font-size: 18px;
   border-radius: 0px; }
 
