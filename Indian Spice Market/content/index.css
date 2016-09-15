@@ -12,8 +12,6 @@
 
 #button-menu {
   background: #FFF !important;
-  font-family: Signika;
-  font-weight: bold;
   border: 0px;
   border-bottom: 1px solid lightgrey;
   border-radius: 0px; }
@@ -25,13 +23,17 @@
     max-width: 170px;
     max-height: 60px; }
 
-#navbar-list li > a {
+#navbarCollapse {
+  font-family: Signika;
+  font-weight: bold;
   font-size: 17px;
   color: #000; }
-  #navbar-list li > a:hover {
-    color: #990000; }
 
-#navbar-list #messages {
+#navbar-list li > a:hover {
+  color: #990000; }
+
+#messages,
+#login {
   background: #FFF !important; }
 
 #messages-menu {

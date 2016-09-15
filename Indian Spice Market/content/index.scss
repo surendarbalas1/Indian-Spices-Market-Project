@@ -19,8 +19,6 @@ $main-font-family: Signika;
 }
 #button-menu {
     background: $white !important;
-    font-family:$main-font-family;
-    font-weight: bold;
     border: 0px;
     border-bottom: 1px solid lightgrey;
     border-radius: 0px;
@@ -33,17 +31,22 @@ $main-font-family: Signika;
         max-height: 60px;
     }
 }
+#navbarCollapse {
+    font-family:$main-font-family;
+    font-weight: bold;
+    font-size: $main-font + 1px; 
+    color: $black;
+}
 #navbar-list {
     li>a {
-          font-size: $main-font + 1px; 
-          color: $black;
           &:hover {
             color: $main-color;
           }
     }
-    #messages {
-        background: $white !important;
-    }
+}
+#messages,
+#login {
+    background: $white !important;
 }
 #messages-menu {
     min-width: 115px;
