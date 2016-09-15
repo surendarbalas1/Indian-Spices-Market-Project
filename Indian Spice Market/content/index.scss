@@ -33,15 +33,18 @@ $main-font-family: Signika;
         max-height: 60px;
     }
 }
-#messages-menu {
-    min-width: 115px;
-}
 #navbar-list {
     li>a {
-        font-size: $main-font + 1px; 
-        color: $black;
-        &:hover {
+          font-size: $main-font + 1px; 
+          color: $black;
+          &:hover {
             color: $main-color;
-        }
+          }
     }
+    #messages {
+        background: $white !important;
+    }
+}
+#messages-menu {
+    min-width: 115px;
 }

@@ -25,12 +25,15 @@
     max-width: 170px;
     max-height: 60px; }
 
-#messages-menu {
-  min-width: 115px; }
-
 #navbar-list li > a {
   font-size: 17px;
   color: #000; }
   #navbar-list li > a:hover {
     color: #990000; }
+
+#navbar-list #messages {
+  background: #FFF !important; }
+
+#messages-menu {
+  min-width: 115px; }
 
