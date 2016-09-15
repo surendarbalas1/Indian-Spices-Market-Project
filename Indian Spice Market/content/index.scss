@@ -6,14 +6,29 @@ $main-color: #990000;
 $main-font: 16px;
 $main-font-family: Signika;
 
+#button-menu,
+#brand img {
+    height: 100%;
+}
 #button-menu {
+    min-height: 90px;
     background: $white !important;
     font-family:$main-font-family;
-    font-size: $main-font + 2px;
+    font-weight: bold;
     border: 0px;
-    border-bottom: 1px solid $black;
+    border-bottom: 1px solid lightgrey;
     border-radius: 0px;
+}
+#brand img {
+    width: 100%;
+    max-width: 120px;
+    max-height: 50px;
 }
 #messages-menu {
     min-width: 115px;
+}
+#navbar-list {
+    li>a {
+        font-size: $main-font + 1px; 
+    }
 }

@@ -1,12 +1,25 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Signika");
+#button-menu,
+#brand img {
+  height: 100%; }
+
 #button-menu {
+  min-height: 90px;
   background: #FFF !important;
   font-family: Signika;
-  font-size: 18px;
+  font-weight: bold;
   border: 0px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid lightgrey;
   border-radius: 0px; }
+
+#brand img {
+  width: 100%;
+  max-width: 120px;
+  max-height: 50px; }
 
 #messages-menu {
   min-width: 115px; }
+
+#navbar-list li > a {
+  font-size: 17px; }
 
