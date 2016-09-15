@@ -10,5 +10,7 @@ $main-font-family: Signika;
     background: $white !important;
     font-family:$main-font-family;
     font-size: $main-font + 2px;
+    border: 0px;
+    border-bottom: 1px solid $black;
     border-radius: 0px;
 }
