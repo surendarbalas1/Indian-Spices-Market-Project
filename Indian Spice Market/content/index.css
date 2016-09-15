@@ -7,3 +7,6 @@
   border-bottom: 1px solid #000;
   border-radius: 0px; }
 
+#messages-menu {
+  min-width: 115px; }
+
