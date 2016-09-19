@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contact.html" />
     <Content Include="images\background-body.png" />
     <Content Include="images\background-top.jpg" />
     <Content Include="images\balti.jpg" />
