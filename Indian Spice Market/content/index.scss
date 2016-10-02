@@ -48,9 +48,9 @@ $main-font-family: Signika;
 }
 #messages {
     background: $white !important;
-    #messages-menu {
-        min-width: 115px;
-    }
+}
+ul#messages-menu {
+    min-width: 100px;
 }
 .login-position {
     padding-left: 4px;
