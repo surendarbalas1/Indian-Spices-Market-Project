@@ -33,9 +33,11 @@ $main-font-family: Signika;
     }
 }
 #navbarCollapse li>a {
-    font-family:$main-font-family;
-    font-weight: bold;
-    font-size: $main-font + 1px; 
+    font: {
+        family:$main-font-family;
+        weight: bold;
+        size: $main-font + 1px; 
+    }
     color: $black;
 }
 #navbar-list {
