@@ -11,7 +11,7 @@
   min-height: 70px; }
 
 #button-menu {
-  background: #FFF !important;
+  background: #FFFFFF !important;
   border: 0px;
   border-bottom: 1px solid lightgrey;
   border-radius: 0px;
@@ -28,7 +28,7 @@
   font-family: Signika;
   font-weight: bold;
   font-size: 17px;
-  color: #000; }
+  color: #000000; }
 
 #navbar-list {
   margin-left: 16% !important; }
@@ -36,7 +36,7 @@
     color: #990000; }
 
 #messages {
-  background: #FFF !important; }
+  background: #FFFFFF !important; }
 
 ul#messages-menu {
   min-width: 100px; }
