@@ -31,7 +31,7 @@
   color: #000000; }
 
 #navbar-list {
-  margin-left: 16% !important; }
+  margin: 1% 0% 0% 16% !important; }
   #navbar-list li > a:hover {
     color: #990000; }
 
