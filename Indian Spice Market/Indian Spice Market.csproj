@@ -95,6 +95,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contact.html" />
+    <Content Include="content\contact.css">
+      <DependentUpon>contact.scss</DependentUpon>
+    </Content>
+    <Content Include="content\contact.min.css">
+      <DependentUpon>contact.css</DependentUpon>
+    </Content>
     <Content Include="images\background-body.png" />
     <Content Include="images\background-top.jpg" />
     <Content Include="images\balti.jpg" />
@@ -127,6 +133,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="content\contact.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
