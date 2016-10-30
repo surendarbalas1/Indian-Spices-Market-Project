@@ -26,50 +26,52 @@
 
 </head>
 <body>
-    <main role="main">
-        <header id="top">
-            <nav role="navigation" id="button-menu" class="navbar navbar-inverse">
-                <div class="navbar-header">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a role="link" href="#" id="brand" class="navbar-brand">
-                        <img role="img" src="images/logo.png" title="Logo" alt="Indian Spice Market Logo" />
-                    </a>
-                </div>
-                <div id="navbarCollapse" class="collapse navbar-collapse">
-                    <ul role="menu" id="navbar-list" class="nav navbar-nav">
-                        <li role="menuitem"><a role="link" href="Index.html">Home</a></li>
-                        <li role="menuitem"><a role="link" href="#">About</a></li>
-                        <li role="menuitem"><a role="link" href="#">Offers</a></li>
-                        <li role="menuitem" class="dropdown">
-                            <a role="link" id="messages" data-toggle="dropdown" class="dropdown-toggle" href="#">Messages<b class="caret"></b></a>
-                            <ul role="menu" class="dropdown-menu" id="messages-menu">
-                                <li role="menuitem"><a role="link" href="#">Inbox</a></li>
-                                <li role="menuitem"><a role="link" href="#">Drafts</a></li>
-                                <li role="menuitem"><a role="link" href="#">Sent Items</a></li>
-                                <li role="menuitem" class="divider"></li>
-                                <li role="menuitem"><a role="link" href="#">Trash</a></li>
-                            </ul>
-                        </li>
-                        <li role="menuitem"><a role="link" href="#">Contact</a></li>
-                    </ul>
-                    <form role="search" class="navbar-form navbar-left">
-                        <div class="form-group">
-                            <input type="text" placeholder="Search" class="form-control">
-                        </div>
-                    </form>
-                    <ul role="menu" id="login" class="nav navbar-nav navbar-right">
-                        <li role="menuitem"><a role="link" href="#"><span class="fa fa-user"></span><span class="login-position">Login</span></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <section id="middle"></section>
-        <footer id="footer"></footer>
-    </main>
+    <header role="banner" id="top">
+        <nav role="navigation" id="button-menu" class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a role="link" href="#" id="brand" class="navbar-brand">
+                    <img role="img" src="images/logo.png" title="Logo" alt="Indian Spice Market Logo" />
+                </a>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul role="list" id="navbar-list" class="nav navbar-nav">
+                    <li role="listitem"><a role="link" href="#">Home</a></li>
+                    <li role="listitem"><a role="link" href="#">About</a></li>
+                    <li role="listitem"><a role="link" href="#">Offers</a></li>
+                    <li role="listitem" class="dropdown">
+                        <a role="link" id="messages" data-toggle="dropdown" class="dropdown-toggle" href="#">Messages<b class="caret"></b></a>
+                        <ul role="list" class="dropdown-menu" id="messages-menu">
+                            <li role="listitem"><a role="link" href="#">Inbox</a></li>
+                            <li role="listitem"><a role="link" href="#">Drafts</a></li>
+                            <li role="listitem"><a role="link" href="#">Sent Items</a></li>
+                            <li role="listitem" class="divider"></li>
+                            <li role="listitem"><a role="link" href="#">Trash</a></li>
+                        </ul>
+                    </li>
+                    <li role="listitem"><a role="link" href="Contact.html">Contact</a></li>
+                </ul>
+                <form role="search" class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input role="search" type="search" placeholder="Search" class="form-control" />
+                    </div>
+                </form>
+                <ul role="list" id="login" class="nav navbar-nav navbar-right">
+                    <li role="listitem"><a role="link" href="#"><span class="fa fa-user"></span><span class="login-position">Login</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section role="main" id="middle">
+
+    </section>
+    <footer role="contentinfo" id="footer">
+
+    </footer>
 </body>
 </html>
