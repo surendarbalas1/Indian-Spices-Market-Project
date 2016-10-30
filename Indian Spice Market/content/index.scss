@@ -41,20 +41,18 @@ $main-font-family: Signika;
         }
     }
 }
-#navbarCollapse li>a {
-    font: {
-        family:$main-font-family;
-        weight: bold;
-        size: $main-font + 1px; 
-    }
-    color: $black;
-}
 #navbar-list {
     margin: 1% 0% 0% 16% !important;
     li>a {
-          &:hover {
-            color: $main-color;
-          }
+            font: {
+                family:$main-font-family;
+                weight: bold;
+                size: $main-font + 1px; 
+            }
+            color: $black;
+            &:hover {
+                color: $main-color;
+            }
     }
 }
 input[type="search"] {

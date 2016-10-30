@@ -23,16 +23,15 @@
       max-width: 170px;
       max-height: 60px; }
 
-#navbarCollapse li > a {
-  font-family: Signika;
-  font-weight: bold;
-  font-size: 17px;
-  color: #000000; }
-
 #navbar-list {
   margin: 1% 0% 0% 16% !important; }
-  #navbar-list li > a:hover {
-    color: #990000; }
+  #navbar-list li > a {
+    font-family: Signika;
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000; }
+    #navbar-list li > a:hover {
+      color: #990000; }
 
 #messages {
   background: #FFFFFF !important; }
