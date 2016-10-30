@@ -28,8 +28,11 @@ $main-font-family: Signika;
 #navbarCollapse {
     min-height: 70px;
 }
-#button-menu {
+#button-menu,
+#messages {
     background: $white !important;
+}
+#button-menu {
     border: 0px;
     border-bottom: 1px solid lightgrey;
     border-radius: 0px;
@@ -59,9 +62,6 @@ $main-font-family: Signika;
 }
 input[type="search"] {
 
-}
-#messages {
-    background: $white !important;
 }
 ul#messages-menu {
     min-width: 100px;

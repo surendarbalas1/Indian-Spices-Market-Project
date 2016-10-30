@@ -10,8 +10,11 @@
 #navbarCollapse {
   min-height: 70px; }
 
+#button-menu,
+#messages {
+  background: #FFFFFF !important; }
+
 #button-menu {
-  background: #FFFFFF !important;
   border: 0px;
   border-bottom: 1px solid lightgrey;
   border-radius: 0px;
@@ -32,9 +35,6 @@
     color: #000000; }
     #navbar-list li > a:hover {
       color: #990000; }
-
-#messages {
-  background: #FFFFFF !important; }
 
 ul#messages-menu {
   min-width: 100px; }
