@@ -41,6 +41,8 @@ input[type="search"] {
 
 ul#messages-menu {
   min-width: 100px; }
+  ul#messages-menu li > a {
+    padding: 3px 10px !important; }
 
 .login-position {
   padding-left: 4px; }
