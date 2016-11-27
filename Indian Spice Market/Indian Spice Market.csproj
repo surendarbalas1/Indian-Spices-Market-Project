@@ -94,7 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contact.html" />
+    <Content Include="sites\Contact.html" />
     <Content Include="content\contact.css">
       <DependentUpon>Contact.scss</DependentUpon>
     </Content>
@@ -148,7 +148,7 @@
     <Content Include="content\index.min.css">
       <DependentUpon>index.css</DependentUpon>
     </Content>
-    <Content Include="Index.html" />
+    <Content Include="sites\Index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
