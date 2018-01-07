@@ -2,8 +2,6 @@
 
 $max-width: 100%;
 $max-height: 100%;
-$white: #FFFFFF;
-$black: #000000;
 $main-color: #990000;
 $main-font: 16px;
 $main-font-family: Signika;
@@ -30,7 +28,7 @@ $main-font-family: Signika;
 }
 #button-menu,
 #messages {
-    background: $white !important;
+    background: #fff !important;
 }
 #button-menu {
     border: 0px;
@@ -54,7 +52,7 @@ $main-font-family: Signika;
                 weight: bold;
                 size: $main-font + 1px; 
             }
-            color: $black;
+            color: #000;
             &:hover {
                 color: $main-color;
             }
