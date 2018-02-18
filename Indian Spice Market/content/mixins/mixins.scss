@@ -1,0 +1,19 @@
+@mixin overflow-x-y($x, $y) {
+    overflow: {
+        x: $x;
+        y: $y;
+    }
+}
+
+@mixin border-values($top, $left, $bottom, $right, $style, $color) {
+    border: {
+        bottom: $bottom;
+        color: $color;
+        left: $left;
+        right: $right;
+        style: $style;
+        top: $top;
+    }
+}
+
+@mixin css-triangle($direction, $size, $color) {}
