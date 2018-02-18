@@ -1,3 +1,8 @@
+@mixin margin-float-group {
+    margin: auto;
+    float: none;
+}
+
 @mixin overflow-x-y($x, $y) {
     overflow: {
         x: $x;
