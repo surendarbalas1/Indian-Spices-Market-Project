@@ -1,0 +1,9 @@
+- make everything with VueJS
+
+- make rounting as it will be a single page application
+
+- make a contact form at the end
+
+- use mixins, variables and utilities
+
+- name everything using the BEM methodology (use prefixes for naming such as c-, o-, t- etc.)
