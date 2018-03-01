@@ -16,9 +16,6 @@
 .u-text--white {
   color: #fff; }
 
-.u-text--no-decoration {
-  text-decoration: none; }
-
 .u-full-width {
   width: 100%; }
 
@@ -28,8 +25,8 @@
 .u-no-border {
   border: 0; }
 
-.u-inline {
-  display: inline; }
+.u-bg--white {
+  background-color: #fff; }
 
 .u-block {
   display: block; }
